@@ -1,0 +1,89 @@
+/* Language Changer Css */
+[data-language=en] {
+ font-family: var(--font-family-english-2);
+}
+
+[data-language=bn] {
+ font-family: var(--font-family-bengali);
+}
+
+[data-language=bn] .header .navbar .navbar-nav .nav-item .nav-link {
+
+}
+[data-language=en] .header .navbar .navbar-nav .nav-item .nav-link {
+
+}
+
+[data-language=en] .breaking-news .news-btn {
+ font-size: 15px;
+ text-transform: inherit;
+ padding: 6px 18px;
+}
+[data-language=en] .header .topbar .topbar-date span {
+ text-transform: inherit;
+ font-size: 12px;
+ font-weight: 700;
+}
+[data-language=en] .header .topbar .top-menu li a{
+ text-transform: inherit;
+ font-size: 12px;
+ font-weight: 700;
+}
+[data-language=en] .header .topbar .user a{
+ font-size: 12px;
+ font-weight: 700;
+}
+[data-language=en] .blog-post.post-style-04.custom .blog-post-details .blog-title {
+ text-transform: inherit;
+ line-height: 1.4 !important;
+}
+[data-language=en] .blog-post.post-style-01 .blog-post-details h4 {
+ font-weight: 700;
+}
+[data-language=en] .blog-post .blog-post-details .blog-title a:hover{
+ color: var(--primary-color);
+}
+[data-language=en] .section-title h2{
+ font-weight: 700;
+}
+[data-language=en] .blog-post.post-style-02 .blog-post-details h6 {
+ font-size: 15px;
+ line-height: 1.4;
+ font-weight: 600;
+ margin-bottom: 5px;
+ height: 19px;
+}
+[data-language=en] .news-tab .nav .nav-item .nav-link{
+ text-transform: inherit;
+}
+[data-language=en] .blog-post.post-style-01 .blog-post-details h5{
+ line-height: 1.3;
+}
+[data-language=en] .post-details-wrapper .post-subtitle-wrap p {
+ font-size: 18px;
+ line-height: 1.3;
+ font-weight: 500;
+ color: var(--black-color);
+ margin-bottom: 15px;
+}
+[data-language=en] .post-featured-image-box .featured-image-caption {
+ font-weight: 500;
+}
+[data-language=en] .ads-wrapper .ads-content-body .content-box p {
+ font-weight: 500;
+}
+[data-language=en] .post-body-content p{
+ font-weight: 500;
+}
+[data-language=en] .post-images-box-content small{
+ font-weight: 500;
+}
+[data-language=en] .comment-details p {
+ font-weight: 500;
+ line-height: 1.3;
+ margin-bottom: 5px;
+}
+[data-language=en] ul.dropdown-menu.megamenu li a {
+ font-size: 14px;
+ font-weight: 500;
+}

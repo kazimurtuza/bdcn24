@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en" class="semi-dark">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+  <!-- Bootstrap CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet" />
+
+  <link href="assets/css/icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/custom-root.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+
+  <!-- loader-->
+  <!-- <link href="assets/css/pace.min.css" rel="stylesheet" /> -->
+
+  <title>BDCN24 - NEWS PORTAL</title>
+</head>
+
+<body class="login-page">
+
+  <!--start wrapper-->
+  <div class="wrapper">
+
+    <!--start content-->
+    <section class="authentication-page container-fluid px-0">
+      <div class="row g-0">
+        <div class="col-4 d-none d-md-block">
+          <div class="left-sidebar-cover">
+            <img src="./assets/images/bg-left.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-8 ">
+          <div class="right-sidebar-content">
+            <div class="row justify-content-center align-items-bottom height-100vh position-relative">
+              <div class="col-12 col-md-5 align-self-md-center align-self-center">
+                <div class="card  rounded-4 overflow-hidden mb-0 custom-login-card height-card-login">
+                  <div class="card-body p-5 custom-login-card row align-items-center align-items-md-center">
+
+                    <form class="form-body pt-3">
+                      <div class="row g-3 login-wrap">
+                        <div class="col-12 mt-0">
+                          <div class="logo-box text-center pb-4">
+                            <img src="./assets/images/brand-logo-2.png" alt="" class="d-block d-md-block">
+                            <!-- <img src="./assets/images/login-page.png" alt="" class="d-block d-md-none"> -->
+                          </div>
+                          <div class="login-heading-box tex-center pb-4">
+                            <h5 class="card-title log-i text-center">Login Account</h5>
+                            <p>Discover your social & try login</p>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="ms-auto position-relative email-field-login">
+                            <div class="position-absolute top-50 translate-middle-y search-icon px-1 left"><i class="fadeIn animated bx bx-phone"></i></div>
+                            <input type="number" class="form-control radius-30 ps-5 r-number"  placeholder="Mobile Number">
+                          </div>
+                        </div>
+                        <div class="col-12 mt-2">
+                          <div class="ms-auto position-relative password-field-login">
+                            <div class="position-absolute top-50 translate-middle-y search-icon px-1 z-index-5 left"><i class="lni lni-lock"></i></div>
+                            <input type="password" class="form-control radius-30 ps-5 position-relative" id="inputChoosePassword" placeholder="Enter Password" id="password">
+                            <i class="fadeIn animated bx bx-hide" id="eye"></i>
+                          </div>
+                        </div>
+                        <div class="col-6 mt-2">
+                          <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
+                            <label class="form-check-label remember-field-login" for="flexSwitchCheckChecked">Remember Me</label>
+                          </div>
+                        </div>
+                        <div class="col-6 mt-2 text-end"> <a href="./password-reset.html" class="forgot-pass">Forgot Password ?</a>
+                        </div>
+                        <div class="col-12 pt-3">
+                          <div class="d-flex justify-content-center">
+                            <button type="button" class="btn radius-30 auth-btn login-continue-btn">Continue</button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row g-3 otp-wrap" style="display:none;">
+                        <div class="col-12 ">
+                          <div class="logo-box text-center pb-4">
+                            <img src="./assets/images/icons/otp.png" alt="">
+                          </div>
+                          <div class="login-heading-box tex-center pb-4">
+                            <h5 class="card-title log-i text-center">Enter OTP Number</h5>
+                            <p>Enter the code we just send on your mobile phone <span style="font-size:13px;font-weight:700;color:#222">+880174394553</span></p>
+                          </div>
+                          <div class="row g-3 g-md-0">
+                            <div class="col-2">
+                              <div class="ms-auto position-relative ">
+                                <input type="number" class="form-control radius-1 ps-4 otp-number" data-sl="1">
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="ms-auto position-relative ">
+                                <input type="number" class="form-control radius-1 ps-4 otp-number" data-sl="2" readonly>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="ms-auto position-relative ">
+                                <input type="number" class="form-control radius-1 ps-4 otp-number" data-sl="3" readonly>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="ms-auto position-relative ">
+                                <input type="number" class="form-control radius-1 ps-4 otp-number" data-sl="4" readonly>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="ms-auto position-relative">
+                                <input type="number" class="form-control radius-1 ps-4 otp-number" data-sl="5" readonly>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="ms-auto position-relative">
+                                <input type="number" class="form-control radius-1 ps-4 otp-number" data-sl="6" readonly>
+                              </div>
+                            </div>
+                            <div class="col-12 pt-4">
+                              <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn radius-30 auth-btn otp-submit-btn d-none">Login</button>
+                              </div>
+                            </div>
+                            <div class="col-12 pt-3">
+                              <div class="d-flex justify-content-center flex-column text-center resend-otp-wrap">
+                                <p class="pb-0 mb-0">Don't receive the code?</p>
+                                <a class="resend-otp-btn">Resend</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+
+
+              </div>
+              <div class="col-12 d-block d-md-none mt-5">
+                <div class="m-copyright text-center">
+                  <p>© BDCN24. All rights reserved. <br/> Developed By - <a href="https://www.retinasoft.com.bd/" target="
+                    ">Retina Soft</a>  </p>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--end page main-->
+
+  </div>
+  <!--end wrapper-->
+  <div class="col-12 copyright-bdcn24 position-fixed d-none d-md-block">
+    <p>© BDCN24. All rights reserved. | Developed By - <a href="https://www.retinasoft.com.bd/" target="
+      ">Retina Soft</a>  </p>
+  </div>
+
+
+  <!--plugins-->
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- <script src="assets/js/pace.min.js"></script> -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".otp-number").on('input', function() {
+        let data_sl = $(this).attr("data-sl");
+        data_sl = parseInt(data_sl);
+        if (data_sl != 6) {
+          let next_data_sl = data_sl + 1;
+          $(".otp-number[data-sl=" + next_data_sl + "]").removeAttr('readonly').focus();
+        } else {
+          //show submit button
+          $(".otp-submit-btn").removeClass('d-none');
+        }
+      });
+      $(".otp-number").on('focus', function() {
+        $(this).select();
+      });
+      $(".login-continue-btn").click(function () {
+        $(".login-wrap").slideUp();
+        $(".otp-wrap").slideDown();
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
